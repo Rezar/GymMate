@@ -1,0 +1,241 @@
+111
+angled leg presses: 
+moving joints: ['left_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['right_shoulder', 'left_hip', 'right_hip']
+
+arnold press: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+back extensions: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+back presses: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+bar triceps extensions: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+barbell bench press: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell curls: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell front raise: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell lunge: 
+moving joints: ['left_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+bench jump: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bench presses: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+bent over row: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+brbell shrugs: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee']
+
+cable crossover flys: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+chin-ups: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+close-grip bench presses: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'right_knee', 'right_ankle']
+
+concentration curls: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+crunches: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+deadlifts: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+dumbbell flys: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+dumbbell lunges: 
+moving joints: ['left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip']
+
+dumbbell press: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'right_knee']
+
+dumbbell presses: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'right_knee', 'right_ankle']
+
+dumbbell pullovers: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+dumbbell scarecrow: 
+moving joints: ['right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+dumbbell shrugs: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+dumbbell triceps extension: 
+moving joints: ['left_wrist', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+front raises: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+hack squats: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+hanging leg raises: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+incline bench sit-ups: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+incline presses: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+lat pull-downs: 
+moving joints: ['right_elbow', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+lateral raises: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+leg extensions: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+low pulley cable crossover: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee']
+
+low pulley front raises: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+low-pulley lateral raises: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip']
+
+one-arm dumbbell triceps extensions: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+parallel bar dips: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+pec deck files: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+pec deck rear-delt laterals: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+preacher curls: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+
+push-downs: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'right_knee']
+
+push-ups: 
+moving joints: ['left_shoulder', 'left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated calf raises: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'right_knee', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'left_ankle']
+
+seated dumbbell presses: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+seated front presses: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated jackknife: 
+moving joints: ['right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated rows: 
+moving joints: ['right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+sit-ups: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+squats: 
+moving joints: ['right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+standing wrist curl: 
+moving joints: ['left_elbow', 'left_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+t-bar bent over row: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+
+triceps kickbacks: 
+moving joints: ['left_wrist', 'right_wrist', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+twisting hip raise: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+upright row: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+upright rows: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+wrist curls: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+

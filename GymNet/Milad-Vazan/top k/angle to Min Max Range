@@ -1,0 +1,287 @@
+import pandas as pd
+import numpy as np
+df_raw = pd.read_csv('pose-output_revise.csv')
+
+for j in range(df_raw.__len__()):
+    temp_list = []
+    for i in df_raw.drop(['name', 'label','Unnamed: 51'],axis=1).columns:
+        temp_list.append(eval(df_raw[i][j]).__len__())
+    #print(len(set(temp_list)))
+    
+df_joint = df_raw[
+    ['xX_left_shoulder', 'yY_left_shoulder', 'zZ_left_shoulder',
+     'xX_right_shoulder', 'yY_right_shoulder','zZ_right_shoulder',
+     'xX_left_elbow', 'yY_left_elbow', 'zZ_left_elbow', 
+     'xX_right_elbow','yY_right_elbow', 'zZ_right_elbow', 
+     'xX_left_wrist', 'yY_left_wrist','zZ_left_wrist', 
+     'xX_right_wrist', 'yY_right_wrist', 'zZ_right_wrist',
+     'xX_left_hip', 'yY_left_hip', 'zZ_left_hip', 
+     'xX_right_hip','yY_right_hip', 'zZ_right_hip', 
+     'xX_left_knee', 'yY_left_knee','zZ_left_knee', 
+     'xX_right_knee', 'yY_right_knee', 'zZ_right_knee',
+     'xX_left_ankle', 'yY_left_ankle', 'zZ_left_ankle', 
+     'xX_right_ankle','yY_right_ankle', 'zZ_right_ankle']].copy()
+
+df_new = df_raw[['label']].copy()
+df_new[['left_shoulder','right_shoulder',
+        'left_elbow','right_elbow',
+        'left_wrist','right_wrist',
+        'left_hip','right_hip',
+        'left_knee','right_knee',
+        'left_ankle','right_ankle']] = ''
+
+joint_dict = {'left_shoulder':['xX_left_shoulder', 'yY_left_shoulder', 'zZ_left_shoulder'],
+              'right_shoulder':['xX_right_shoulder', 'yY_right_shoulder','zZ_right_shoulder'],
+              'left_elbow':['xX_left_elbow', 'yY_left_elbow', 'zZ_left_elbow'],
+              'right_elbow':['xX_right_elbow','yY_right_elbow', 'zZ_right_elbow'],
+              'left_wrist':['xX_left_wrist', 'yY_left_wrist','zZ_left_wrist'],
+              'right_wrist':['xX_right_wrist', 'yY_right_wrist', 'zZ_right_wrist'],
+              'left_hip':['xX_left_hip', 'yY_left_hip', 'zZ_left_hip'],
+              'right_hip':['xX_right_hip','yY_right_hip', 'zZ_right_hip'],
+              'left_knee':['xX_left_knee', 'yY_left_knee','zZ_left_knee'],
+              'right_knee':['xX_right_knee', 'yY_right_knee', 'zZ_right_knee'],
+              'left_ankle':['xX_left_ankle', 'yY_left_ankle', 'zZ_left_ankle'],
+              'right_ankle':['xX_right_ankle','yY_right_ankle', 'zZ_right_ankle']
+              }
+
+for i in df_joint.columns:
+    df_joint[i] = df_joint[i].map(eval)
+
+
+for i in range(len(df_joint)):
+    for k in joint_dict.keys():
+        joint_position = np.array(df_joint.iloc[i]
+                                 [joint_dict[k]].
+                                 to_list()).T
+        joint_dist_sum = 0
+        for j in range(1,len(joint_position)):
+            joint_dist_sum += np.linalg.norm(joint_position[j] - joint_position[j-1])
+        df_new[str(k)][i] = joint_dist_sum
+    
+    
+    
+    
+    
+df_new_sorted = df_new[['label']].copy()
+
+df_new_sorted[['top1','top2','top3','top4','top5','top6',
+               'top7','top8','top9','top10','top11','top12']] = ''
+
+for i in range(len(df_new)):
+    df_new_sorted.iloc[i,1:] = df_new.drop('label',axis=1).iloc[i].sort_values(ascending=False).index.to_list()
+
+df_new_sorted.label = df_new_sorted.label.str.lower()
+
+print(df_new_sorted)
+
+    
+# basic statistical analysis
+unique_label_top5 = {}
+for i in df_new_sorted.label.unique():
+    unique_label_top5[str(i)] = list(pd.Series(df_new_sorted.loc[df_new_sorted['label'] == str(i)].to_numpy().flatten()).value_counts().index[1:])
+
+df_unique_label_top5 = pd.DataFrame.from_dict(unique_label_top5, orient='index')
+print(df_unique_label_top5)
+
+# use k-means cluster to identify movement 
+from sklearn.cluster import KMeans
+
+df_new_cluster = df_new.copy()
+df_new_cluster = df_new_cluster.set_index('label')
+for i in range(len(df_new_cluster)):
+    kmeans = KMeans(n_clusters=2)
+    kmeans.fit(np.array(df_new_cluster.iloc[i].to_list()).reshape(-1,1))
+    if kmeans.cluster_centers_[0] > kmeans.cluster_centers_[1]:
+        df_new_cluster.iloc[i] = np.where(kmeans.labels_== 0,1,0)
+    else:
+        df_new_cluster.iloc[i] = kmeans.labels_
+        
+
+
+
+# write a txt file
+with open('joint_movement.txt', 'w') as f:
+    f.write('111\n')
+    for i in range(len(df_unique_label_top5)):
+        f.write(str(df_unique_label_top5.index[i]) +': ' + 
+                'moving joints: ' + str(df_unique_label_top5.iloc[i][:5].to_list()) + 
+                'still joints: ' + str(df_unique_label_top5.iloc[i][-5:].to_list()) + '\n')
+f.close()
+
+# write a txt file
+with open('joint_movement_2.txt', 'w') as f:
+    f.write('111\n')
+    for i in range(len(df_new_cluster)):
+        f.write(str(df_new_cluster.index[i]) +': ' + '\n' + 
+                'moving joints: ' + str(df_new_cluster.iloc[i][df_new_cluster.iloc[i] == 1].index.to_list()) + '\n' +  
+                'still joints: ' + str(df_new_cluster.iloc[i][df_new_cluster.iloc[i] == 0].index.to_list()) + '\n' + '\n')
+f.close()
+
+
+# get angle function
+# def get_angle_at_point2(list_1,list_2,list_3):
+#     a = np.array(list_1)
+#     b = np.array(list_2)
+#     c = np.array(list_3)
+#     ba = a - b
+#     bc = c - b
+#     cosine_angle = np.dot(ba, bc) / (np.linalg.norm(ba) * np.linalg.norm(bc))
+#     angle = np.arccos(cosine_angle)
+#     return np.degrees(angle)
+
+def get_angle_at_point2(a,b,c):
+    a = np.array(a) #first point
+    b = np.array(b) #mid point
+    c = np.array(c) #end point
+
+    radians = np.arctan2(c[1]-b[1],c[0]-b[0]) - np.arctan2(a[1]-b[1],a[0]-b[0])
+    angle = np.abs(radians*180.0/np.pi)
+
+    if angle>180.0:
+        angle = 360 - angle
+    return angle
+
+df_coord = df_raw[['label']].copy()
+df_coord[['left_shoulder','right_shoulder',
+        'left_elbow','right_elbow',
+        'left_wrist','right_wrist',
+        'left_hip','right_hip',
+        'left_knee','right_knee',
+        'left_ankle','right_ankle']] = ''
+
+# store coord as a new data frame df_coord
+for i in range(len(df_joint)):
+    for k in joint_dict.keys():
+        joint_position = np.array(df_joint.iloc[i]
+                                 [joint_dict[k]].
+                                 to_list()).T
+        df_coord[str(k)][i] = joint_position
+
+# 
+# df_angle = df_raw[['label']].copy()
+# df_angle[['angle_1_list','angle_2_list','angle_3_list','angle_4_list',
+#           'angle_5_list','angle_6_list','angle_7_list','angle_8_list']] = ''
+
+df_angle = pd.DataFrame(columns = ['label','angle_1_list','angle_2_list','angle_3_list','angle_4_list',
+          'angle_5_list','angle_6_list','angle_7_list','angle_8_list'], index = df_raw.index)
+df_angle.label = df_raw[['label']].copy()
+                        
+
+for i in range(len(df_coord)):
+    angle_1,angle_2,angle_3,angle_4 = [],[],[],[]
+    angle_5,angle_6,angle_7,angle_8 = [],[],[],[]
+    for j in range(len(df_coord.iloc[i][1])):
+        
+        angle_1.append(get_angle_at_point2(df_coord.iloc[i]['left_wrist'][j], 
+                                           df_coord.iloc[i]['left_elbow'][j], 
+                                           df_coord.iloc[i]['left_shoulder'][j]))
+        
+        angle_5.append(get_angle_at_point2(df_coord.iloc[i]['right_wrist'][j], 
+                                           df_coord.iloc[i]['right_elbow'][j], 
+                                           df_coord.iloc[i]['right_shoulder'][j]))
+        
+        angle_2.append(get_angle_at_point2(df_coord.iloc[i]['left_elbow'][j], 
+                                           df_coord.iloc[i]['left_shoulder'][j], 
+                                           df_coord.iloc[i]['left_hip'][j]))
+    
+        angle_6.append(get_angle_at_point2(df_coord.iloc[i]['right_elbow'][j], 
+                                           df_coord.iloc[i]['right_shoulder'][j], 
+                                           df_coord.iloc[i]['right_hip'][j]))
+        
+        angle_3.append(get_angle_at_point2(df_coord.iloc[i]['left_shoulder'][j], 
+                                           df_coord.iloc[i]['left_hip'][j], 
+                                           df_coord.iloc[i]['left_knee'][j]))
+        
+        angle_7.append(get_angle_at_point2(df_coord.iloc[i]['right_shoulder'][j], 
+                                           df_coord.iloc[i]['right_hip'][j], 
+                                           df_coord.iloc[i]['right_knee'][j]))
+        
+        angle_4.append(get_angle_at_point2(df_coord.iloc[i]['left_hip'][j], 
+                                           df_coord.iloc[i]['left_knee'][j], 
+                                           df_coord.iloc[i]['left_ankle'][j]))
+        
+        angle_8.append(get_angle_at_point2(df_coord.iloc[i]['right_hip'][j], 
+                                           df_coord.iloc[i]['right_knee'][j], 
+                                           df_coord.iloc[i]['right_ankle'][j]))
+        
+    df_angle.iloc[i]['angle_1_list'] = angle_1
+    df_angle.iloc[i]['angle_2_list'] = angle_2
+    df_angle.iloc[i]['angle_3_list'] = angle_3
+    df_angle.iloc[i]['angle_4_list'] = angle_4
+    df_angle.iloc[i]['angle_5_list'] = angle_5
+    df_angle.iloc[i]['angle_6_list'] = angle_6
+    df_angle.iloc[i]['angle_7_list'] = angle_7
+    df_angle.iloc[i]['angle_8_list'] = angle_8
+
+
+
+
+# from matplotlib import pyplot as plt
+# # plot distribution by time frame
+# fig = plt.figure()
+# gs = fig.add_gridspec(8, hspace=0)
+# axs = gs.subplots(sharex=True, sharey=True)
+# fig.suptitle('exercise 1')
+# plt.xlabel('video frames')
+# plt.ylabel('degree')
+# for i in range(8):
+#     axs[i].plot(df_angle[df_angle.label == 'lat pull down'].iloc[5][i+1])
+
+
+# # plot distribution by angle degree ascending
+# fig = plt.figure()
+# gs = fig.add_gridspec(8, hspace=0)
+# axs = gs.subplots(sharex=True, sharey=True)
+# fig.suptitle('exercise 1')
+# plt.xlabel('degree')
+# plt.ylabel('freq')
+# for i in range(8):
+#     axs[i].hist(df_angle.iloc[0][i+1],bins = 20)
+
+
+# angle list to max min range
+
+def list_to_MaxMin(list_a):
+    return round(max(list_a) - min(list_a),2)
+
+df_angle_MinMaxRange = df_angle.copy()
+df_angle_MinMaxRange[df_angle.columns[1:]] = df_angle[df_angle.columns[1:]].applymap(lambda x: list_to_MaxMin(x)).copy()
+
+print(df_angle_MinMaxRange)
+
+# angle list to max min range + average + std.
+import statistics
+def list_to_Range_Mean_Std(list_a):
+    return [round(max(list_a) - min(list_a),2),
+            round(statistics.mean(list_a),2), 
+            round(statistics.pstdev(list_a),2)]
+
+df_angle_MinMaxRange_Mean_Std = df_angle.copy()
+df_angle_MinMaxRange_Mean_Std[df_angle.columns[1:]] = df_angle[df_angle.columns[1:]].applymap(lambda x: list_to_Range_Mean_Std(x)).copy()
+
+print(df_angle_MinMaxRange_Mean_Std)
+
+
+# cosine similarity
+from scipy import spatial
+# enter exercise row of df_angle_MinMaxRa
+def check_similarity(a,b):
+    data_1 = df_angle_MinMaxRange.iloc[a][1:].to_list()
+    data_2 = df_angle_MinMaxRange.iloc[b][1:].to_list()
+    print(df_angle_MinMaxRange.iloc[a].label)
+    print(df_angle_MinMaxRange.iloc[b].label)
+    print(1 - spatial.distance.cosine(data_1, data_2))
+#test
+check_similarity(0,1)
+  
+
+# detect outlier and return index from df_angle
+def get_outlier_index_from_one_angle_list(exercise_row,angle_number):
+    x = df_angle.iloc[exercise_row][angle_number]
+    return [i for i in range(len(x)) if (abs(x[i] - np.mean(x)) > 2*np.std(x))]
+#test
+get_outlier_index_from_one_angle_list(2,3)
+
+
+
+

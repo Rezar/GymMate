@@ -1,0 +1,897 @@
+111
+angled leg presses: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+angled leg presses: 
+moving joints: ['right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+angled leg presses: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+angled leg presses: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+angled leg presses: 
+moving joints: ['right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+angled leg presses: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+arnold press: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+arnold press: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+arnold press: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+back extensions: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+back extensions: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+back extensions: 
+moving joints: ['right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee']
+
+back extensions: 
+moving joints: ['right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'right_knee']
+
+back extensions: 
+moving joints: ['right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+back presses: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+bar triceps extensions: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+bar triceps extensions: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+barbell bench press: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell bench press: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+barbell curls: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell curls: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell curls: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell curls: 
+moving joints: ['left_wrist', 'right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee']
+
+barbell curls: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell curls: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell front raise: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell front raise: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+barbell front raise: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+barbell front raise: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+barbell front raise: 
+moving joints: ['right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell front raise: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+
+barbell front raise: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell front raise: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+barbell lunge: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+barbell lunge: 
+moving joints: ['right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+barbell lunge: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+bench jump: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bench jump: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+bench jump: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bench presses: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bench presses: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+bench presses: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bench presses: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bench presses: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+bench presses: 
+moving joints: ['left_shoulder', 'left_elbow', 'left_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['right_shoulder', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip']
+
+bench presses: 
+moving joints: ['right_elbow', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bench presses: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bench presses: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+bench presses: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bent over row: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bent over row: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bent over row: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bent over row: 
+moving joints: ['right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+bent over row: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+bent over row: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+cable crossover flys: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+cable crossover flys: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+cable crossover flys: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+cable crossover flys: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+cable crossover flys: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+chin-ups: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+chin-ups: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+chin-ups: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+chin-ups: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+chin-ups: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+
+concentration curls: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'right_knee']
+
+concentration curls: 
+moving joints: ['left_knee', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'right_knee', 'right_ankle']
+
+concentration curls: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+crunches: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+deadlifts: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+deadlifts: 
+moving joints: ['right_shoulder', 'right_elbow', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'left_elbow', 'left_wrist', 'left_hip', 'right_hip']
+
+deadlifts: 
+moving joints: ['left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'right_knee']
+
+deadlifts: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+dumbbell flys: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+dumbbell flys: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+dumbbell flys: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+
+dumbbell flys: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+dumbbell flys: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+dumbbell lunges: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip']
+
+dumbbell lunges: 
+moving joints: ['left_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip']
+
+dumbbell lunges: 
+moving joints: ['left_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip']
+
+dumbbell lunges: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+dumbbell lunges: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+dumbbell lunges: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+dumbbell press: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+dumbbell press: 
+moving joints: ['left_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip']
+
+dumbbell presses: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+dumbbell presses: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+dumbbell pullovers: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+dumbbell pullovers: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+dumbbell pullovers: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'right_knee']
+
+dumbbell scarecrow: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+dumbbell scarecrow: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+
+dumbbell scarecrow: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+
+dumbbell scarecrow: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+dumbbell scarecrow: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+dumbbell shrugs: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+dumbbell shrugs: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+dumbbell shrugs: 
+moving joints: ['left_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'left_knee']
+
+dumbbell shrugs: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+front raises: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+front raises: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+hack squats: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+hack squats: 
+moving joints: ['left_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+hack squats: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+hack squats: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+hack squats: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+hanging leg raises: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee']
+
+hanging leg raises: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+hanging leg raises: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+hanging leg raises: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+hanging leg raises: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+hanging leg raises: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+hanging leg raises: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+incline bench sit-ups: 
+moving joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+incline presses: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+incline presses: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+incline presses: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+lat pull-downs: 
+moving joints: ['left_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'right_knee']
+
+lat pull-downs: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+lat pull-downs: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+lat pull-downs: 
+moving joints: ['right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'right_knee']
+
+lat pull-downs: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+lateral raises: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+lateral raises: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+lateral raises: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+lateral raises: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+lateral raises: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+
+lateral raises: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+leg extensions: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+leg extensions: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+leg extensions: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+low pulley cable crossover: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+low pulley cable crossover: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'right_knee']
+
+low pulley cable crossover: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee']
+
+low pulley cable crossover: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+low pulley cable crossover: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+low pulley cable crossover: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'right_knee']
+
+low pulley cable crossover: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+low pulley cable crossover: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+low pulley front raises: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+low pulley front raises: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+low pulley front raises: 
+moving joints: ['right_elbow', 'right_wrist', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+low-pulley lateral raises: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip']
+
+one-arm dumbbell rows: 
+moving joints: ['left_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'left_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'right_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+one-arm dumbbell rows: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+one-arm dumbbell rows: 
+moving joints: ['left_knee', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'right_knee', 'right_ankle']
+
+one-arm dumbbell rows: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+one-arm dumbbell rows: 
+moving joints: ['left_elbow', 'left_wrist', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+one-arm dumbbell rows: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'right_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['left_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+one-arm dumbbell rows: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+one-arm dumbbell triceps extensions: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+one-arm dumbbell triceps extensions: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+one-arm dumbbell triceps extensions: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+parallel bar dips: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+parallel bar dips: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+parallel bar dips: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+parallel bar dips: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+pec deck files: 
+moving joints: ['right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee']
+
+pec deck files: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+pec deck files: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'right_knee']
+
+pec deck files: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+pec deck files: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+pec deck files: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip']
+
+pec deck files: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+pec deck rear-delt laterals: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+pec deck rear-delt laterals: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+preacher curls: 
+moving joints: ['left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip']
+
+preacher curls: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+preacher curls: 
+moving joints: ['left_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'right_ankle']
+
+push-downs: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+push-ups: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+push-ups: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated calf raises: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee']
+
+seated calf raises: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee']
+
+seated calf raises: 
+moving joints: ['left_wrist', 'right_wrist', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+seated dumbbell presses: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated dumbbell presses: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+seated dumbbell presses: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+seated dumbbell presses: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated front presses: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'right_knee']
+
+seated front presses: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+seated front presses: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated jackknife: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+seated jackknife: 
+moving joints: ['left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip']
+
+seated jackknife: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated jackknife: 
+moving joints: ['left_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'right_knee']
+
+seated rows: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'right_knee']
+
+seated rows: 
+moving joints: ['right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated rows: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated rows: 
+moving joints: ['left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+seated rows: 
+moving joints: ['left_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'right_knee']
+
+sit-ups: 
+moving joints: ['right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+squats: 
+moving joints: ['left_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+squats: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+squats: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle']
+
+squats: 
+moving joints: ['left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+standing wrist curl: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+standing wrist curl: 
+moving joints: ['right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+standing wrist curl: 
+moving joints: ['left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+standing wrist curl: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+t-bar bent over row: 
+moving joints: ['left_wrist', 'left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'right_knee']
+
+t-bar bent over row: 
+moving joints: ['left_wrist', 'right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip', 'left_knee']
+
+t-bar bent over row: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+t-bar bent over row: 
+moving joints: ['left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_hip', 'right_hip']
+
+t-bar bent over row: 
+moving joints: ['right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+triceps kickbacks: 
+moving joints: ['left_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'right_elbow', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+triceps kickbacks: 
+moving joints: ['left_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'right_wrist', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+twisting hip raise: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+upright row: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+
+upright rows: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip']
+
+upright rows: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+upright rows: 
+moving joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+upright rows: 
+moving joints: ['left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_hip', 'right_hip', 'left_knee', 'right_knee']
+
+wrist curls: 
+moving joints: ['right_shoulder', 'right_elbow', 'left_wrist', 'right_wrist', 'right_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'left_elbow', 'left_hip', 'right_hip', 'left_knee']
+
+wrist curls: 
+moving joints: ['left_knee', 'left_ankle', 'right_ankle']
+still joints: ['left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist', 'left_hip', 'right_hip', 'right_knee']
+

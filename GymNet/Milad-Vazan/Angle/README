@@ -1,0 +1,21 @@
+We are trying to calculate angles at the joints to capture the movement and the distribution of the same in the different time frames.
+
+There are eight angles we are calculating -
+The angle between hip and ankle (Left and right)
+The angle between shoulder and knee (Left and right)
+The angle between elbow and hip (Left and right)
+The angle between wrist and shoulder (Left and right)
+
+The angle between two vectors(θ) = cos-1 [ (a · b) / (|a| |b|) ].
+
+Function used - 
+
+def dotproduct(v1, v2):
+  return sum((a*b) for a, b in zip(v1, v2))
+
+def length(v):
+  return math.sqrt(dotproduct(v, v))
+
+def angle(v1, v2):
+  return math.acos(dotproduct(v1, v2) / (length(v1) * length(v2)))
+

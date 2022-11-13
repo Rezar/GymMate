@@ -1,0 +1,119 @@
+
+import mpl_toolkits.mplot3d.axes3d as p3
+from matplotlib import animation
+
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+
+import operator
+from functools import reduce
+
+
+#Get the data
+df = pd.read_csv("pose-output (2).csv")
+
+#As the rows are a string convert them into list of float values
+for i in df.columns.tolist()[1:]:
+    # print(i)
+    split_str = [re.split(', |, |/[ |]', x.strip("[]")) for x in df[i].tolist()]
+
+    convert= [[float(t) for t in l] for l in split_str]
+
+    df[i]  = convert
+    
+
+
+#Gif Function, e is the index
+def gif(e):
+    
+    # %matplotlib qt  
+    
+    fig = plt.figure()
+    ax  = fig.add_subplot(111, projection ="3d")
+    
+    def update(i):
+        ax.clear()
+        
+        ax.plot(
+    
+            [-df['xX_left_wrist'][e][i], -df['xX_left_elbow'][e][i]], 
+            [-df['yY_left_wrist'][e][i], -df['yY_left_elbow'][e][i]], 
+            [-df['zZ_left_wrist'][e][i], -df['zZ_left_elbow'][e][i]], marker='o', color='green', linestyle='dashed')
+            
+        ax.plot(
+            
+            [-df['xX_left_elbow'][e][i], -df['xX_left_shoulder'][e][i]], 
+            [-df['yY_left_elbow'][e][i], -df['yY_left_shoulder'][e][i]], 
+            [-df['zZ_left_elbow'][e][i], -df['zZ_left_shoulder'][e][i]], marker='o',color='red', linestyle='dashed' )
+        
+        ax.plot(
+    
+            [-df['xX_right_wrist'][e][i], -df['xX_right_elbow'][e][i]], 
+            [-df['yY_right_wrist'][e][i], -df['yY_right_elbow'][e][i]], 
+            [-df['zZ_right_wrist'][e][i], -df['zZ_right_elbow'][e][i]], marker='o', color='green', linestyle='dashed')
+        
+        
+        ax.plot(
+            
+            [-df['xX_right_elbow'][e][i], -df['xX_right_shoulder'][e][i]], 
+            [-df['yY_right_elbow'][e][i], -df['yY_right_shoulder'][e][i]], 
+            [-df['zZ_right_elbow'][e][i], -df['zZ_right_shoulder'][e][i]], marker='o',color='red', linestyle='dashed' )
+        
+    
+        ax.plot(
+            
+            [-df['xX_left_shoulder'][e][i], -df['xX_right_shoulder'][e][i]], 
+            [-df['yY_left_shoulder'][e][i], -df['yY_right_shoulder'][e][i]], 
+            [-df['zZ_left_shoulder'][e][i], -df['zZ_right_shoulder'][e][i]], marker='o', color='y', linestyle='dashed' )
+     
+        ax.plot(
+            
+            [-df['xX_right_shoulder'][e][i], -df['xX_right_hip'][e][i]], 
+            [-df['yY_right_shoulder'][e][i], -df['yY_right_hip'][e][i]], 
+            [-df['zZ_right_shoulder'][e][i], -df['zZ_right_hip'][e][i]], marker='o', color='blue', linestyle='dashed' )
+                   
+    
+        ax.plot(
+            
+            [-df['xX_left_shoulder'][e][i], -df['xX_left_hip'][e][i]], 
+            [-df['yY_left_shoulder'][e][i], -df['yY_left_hip'][e][i]], 
+            [-df['zZ_left_shoulder'][e][i], -df['zZ_left_hip'][e][i]], marker='o', color='blue', linestyle='dashed' )
+    
+    
+        ax.plot(
+            [-df['xX_left_hip'][e][i], -df['xX_right_hip'][e][i]], 
+            [-df['yY_left_hip'][e][i], -df['yY_right_hip'][e][i]], 
+            [-df['zZ_left_hip'][e][i], -df['zZ_right_hip'][e][i]], marker='o',color='m', linestyle='dashed' )
+         
+        ax.plot(
+            [-df['xX_left_hip'][e][i], -df['xX_left_knee'][e][i]], 
+            [-df['yY_left_hip'][e][i], -df['yY_left_knee'][e][i]], 
+            [-df['zZ_left_hip'][e][i], -df['zZ_left_knee'][e][i]], marker='o',color='grey', linestyle='dashed' )
+    
+        ax.plot(
+            [-df['xX_left_knee'][e][i], -df['xX_left_ankle'][e][i]], 
+            [-df['yY_left_knee'][e][i], -df['yY_left_ankle'][e][i]], 
+            [-df['zZ_left_knee'][e][i], -df['zZ_left_ankle'][e][i]], marker='o',color='black', linestyle='dashed' )
+    
+        ax.plot(
+            [-df['xX_right_hip'][e][i], -df['xX_right_knee'][e][i]], 
+            [-df['yY_right_hip'][e][i], -df['yY_right_knee'][e][i]], 
+            [-df['zZ_right_hip'][e][i], -df['zZ_right_knee'][e][i]], marker='o',color='grey', linestyle='dashed' )
+    
+        ax.plot(
+            [-df['xX_right_knee'][e][i], -df['xX_right_ankle'][e][i]], 
+            [-df['yY_right_knee'][e][i], -df['yY_right_ankle'][e][i]], 
+            [-df['zZ_right_knee'][e][i], -df['zZ_right_ankle'][e][i]], marker='o',color='black', linestyle='dashed' )
+    
+    frames = len(df['xX_right_knee'][e])
+    
+    ani = animation.FuncAnimation(fig, update, frames=frames, interval=100)
+    
+    
+    ani.save(df["name"][e] + '.gif', writer='pillow')
+ 
+
+   
+
+#Use the gif function and get the gif
+gif(3)    

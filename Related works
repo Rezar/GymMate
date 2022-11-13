@@ -1,8 +1,10 @@
 
 ## paper
-* link: https://arxiv.org/pdf/2210.14794.pdf 
-* link: https://github.com/Walter0807/MotionBERT) https://github.com/Walter0807/MotionBERT 
-* link: https://openaccess.thecvf.com/content/CVPR2021/papers/Fieraru_AIFit_Automatic_3D_Human-Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.pdf
+
+* ANerf: https://lemonatsu.github.io/anerf
+* Activity Tracking from Body-area electric field (HBC) and IMU: https://arxiv.org/pdf/2210.14794.pdf 
+* MotionBERT: https://github.com/Walter0807/MotionBERT) https://github.com/Walter0807/MotionBERT 
+* AIFit: https://openaccess.thecvf.com/content/CVPR2021/papers/Fieraru_AIFit_Automatic_3D_Human-Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.pdf
 * GymCam: Detecting, Recognizing and Tracking Simultaneous Exercises in Unconstrained Scenes  [ [pdf](http://smashlab.io/pdfs/gymcam.pdf) ]
 * Deep Learning-Enabled Multitask System for Exercise Recognition and Counting [[website](https://www.mdpi.com/2414-4088/5/9/55)]
 * Human activity recognition with analysis of angles between skeletal joints using a RGB‐depth sensor [[website](https://onlinelibrary.wiley.com/doi/10.4218/etrij.2018-0577#:~:text=Human%20activity%20recognition%20(HAR)%20has,sensor%20are%20used%20as%20features.)]

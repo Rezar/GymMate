@@ -1,9 +1,7 @@
 
-## paper
+## Activity Tracking and Classification
 
-* ANerf: https://lemonatsu.github.io/anerf
 * Activity Tracking from Body-area electric field (HBC) and IMU: https://arxiv.org/pdf/2210.14794.pdf 
-* MotionBERT: https://github.com/Walter0807/MotionBERT) https://github.com/Walter0807/MotionBERT 
 * AIFit: https://openaccess.thecvf.com/content/CVPR2021/papers/Fieraru_AIFit_Automatic_3D_Human-Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.pdf
 * GymCam: Detecting, Recognizing and Tracking Simultaneous Exercises in Unconstrained Scenes  [ [pdf](http://smashlab.io/pdfs/gymcam.pdf) ]
 * Deep Learning-Enabled Multitask System for Exercise Recognition and Counting [[website](https://www.mdpi.com/2414-4088/5/9/55)]
@@ -18,6 +16,15 @@
 * An adversarial human pose estimation network injected with graph structure [ [pdf](/xbTbwkb_9wZVMnX4xOxVD_OVS1lAR-EH.pdf) ]
 * Robust Vision-Based Workout Analysis Using Diversified Deep Latent Variable Model [ [Website](https://pubmed.ncbi.nlm.nih.gov/33018433/) ]
 * Realtime Indoor Workout Analysis Using Machine Learning & Computer Vision [ [Website](https://pubmed.ncbi.nlm.nih.gov/31946164/) ]
+#thesis
+* Real-Time Action Classification using Intermediate Skeletal Pose Estimation [ [pdf](/ZISISTEGOS-THESIS-2020.pdf) ]
+* Yoga Pose Classification Using Deep Learning [ [pdf](/yoga.pdf) ]
+* 2D/3D HUMAN POSE ESTIMATION USING DEEP CONVOLUTIONAL NEURAL NETS [ [pdf](/index.pdf) ]
+
+
+Data Augmentation:
+* ANerf: https://lemonatsu.github.io/anerf
+* MotionBERT: https://github.com/Walter0807/MotionBERT) https://github.com/Walter0807/MotionBERT 
 
 Articles:
 * Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.html#:~:text=AIFit%20is%20able%20to%20reconstruct,the%20execution%20of%20a%20trainee.
@@ -33,18 +40,9 @@ Articles:
 * Deep Learning-Based Human Pose Estimation: A Survey [ [pdf](https://arxiv.org/pdf/2012.13392) ]
 * Recognizing Exercises and Counting Repetitions in Real Time [ [pdf](https://arxiv.org/pdf/2005.03194) ]
 
-## thesis
-* Real-Time Action Classification using Intermediate Skeletal Pose Estimation [ [pdf](/ZISISTEGOS-THESIS-2020.pdf) ]
-* Yoga Pose Classification Using Deep Learning [ [pdf](/yoga.pdf) ]
-* 2D/3D HUMAN POSE ESTIMATION USING DEEP CONVOLUTIONAL NEURAL NETS [ [pdf](/index.pdf) ]
+
 ## github
-* MediaPipe OSC [ [code](https://github.com/cansik/mediapipe-osc) ]
-* sports counting by pose estimation [ [code](https://github.com/ZhangGe6/sports_counting_by_pose_estimation) ]
-* Real-time single person pose estimation [ [code](https://github.com/etosworld/etos-simplepose) ]
-* Pose-Mesh-Estimation [ [code](https://github.com/sheoranhimansh/Pose-Mesh-Estimation) ]
-* EfficientPose [ [code](https://github.com/daniegr/EfficientPose) ]
 * BlazePose in Tensorflow 2.x [ [code](https://github.com/VNOpenAI/tf-blazepose) ]
-* Human Pose Detection on EdgeTPU (Coral PoseNet) [ [code](https://github.com/google-coral/project-posenet) ]
 * Detecting Wrong Posture of the Plank Fitness Exercise using an Artificial Neural Network [ [code](https://github.com/Vollkorn01/Deep-Learning-Fitness-Exercise-Correction-Keras) ]
 * LSTMs for Human Activity Recognition [ [code](https://github.com/guillaume-chevalier/LSTM-Human-Activity-Recognition) ]
 * Deep-learning-based-human-action-recognition-using-human-skeletons [ [code](https://github.com/hafizas101/Deep-learning-based-human-action-recognition-using-human-skeletons) ]
@@ -52,4 +50,3 @@ Articles:
 * Workout.ai [ [code](https://github.com/amanpandey104/Workout.ai) ]
 * ActivityNet: A Large Scale Video Benchmark for Human Activity Understanding [ [code](https://github.com/activitynet/ActivityNet) ]
 * Human Pose Comparison and Action Scoring using Deep Learning,OpenCV & Python [ [code](https://github.com/kr1210/Human-Pose-Compare) ][ [blog](https://medium.com/analytics-vidhya/human-pose-comparison-and-action-scoring-using-deep-learning-opencv-python-c2bdf0ddecba) ] 
-

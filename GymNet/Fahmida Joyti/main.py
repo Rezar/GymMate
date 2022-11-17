@@ -4,7 +4,7 @@ from csv import reader
 
 from youtube_dowloader import YoutubeDownloader
 
-download_folder = "youtube_shorts\\"
+download_folder = "youtube_videos\\"
 
 if __name__ == '__main__':
 

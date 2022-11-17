@@ -13,7 +13,6 @@ def get_selenium_driver():
     options = webdriver.ChromeOptions()
     options.headless = True
     try:
-        #service = Service("tools\\chromedriver.exe")
         driver = webdriver.Chrome(executable_path="tools\\chromedriver.exe", options=options)
         return driver
     except Exception:

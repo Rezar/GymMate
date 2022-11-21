@@ -25,6 +25,7 @@
 Data Augmentation:
 * ANerf: https://lemonatsu.github.io/anerf
 * MotionBERT: https://github.com/Walter0807/MotionBERT) https://github.com/Walter0807/MotionBERT 
+* MotioNet: https://github.com/Shimingyi/MotioNet
 
 Articles:
 * Interpretable_Feedback_Models_for_Fitness_Training_CVPR_2021_paper.html#:~:text=AIFit%20is%20able%20to%20reconstruct,the%20execution%20of%20a%20trainee.

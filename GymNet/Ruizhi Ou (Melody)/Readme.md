@@ -19,7 +19,7 @@ We are currently concentrating on running the model on **2D WholeBody Video** da
 
 The models require the below prerequisites to run, please have them installed before running (if you haven't done so). Please install *in the following order*, since some serve as the prerequisites for others, and stick to the given versions.
 
-All codes will be presented in the *ViTPose.ipynb* file in this folder.
+All codes will be presented in the *[ViTPose.ipynb](https://github.com/Rezar/GymMate/blob/main/GymNet/Ruizhi%20Ou%20(Melody)/ViTPose_Codes.ipynb)* file in this folder.
 
 You could install following the **versions** either in the "Author Suggested" or "Verified (run on these versions and succeeded)" column.
 |                |Author Suggested               |Verified                      |

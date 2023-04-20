@@ -1,3 +1,1 @@
 # GymMate
-# GymMate
-# GymMate

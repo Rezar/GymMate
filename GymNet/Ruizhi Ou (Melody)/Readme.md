@@ -21,4 +21,8 @@ To identify fitness poses from input videos and return a text description of how
    - Correct the abnormal changes in angles (usually due to inaccurate pose estimation).
 5. Define and classify fitness poses
 6. Output the text description
+
+**About files**
+
+All the actively used files are in folder `main_202310`. The other folders are for history record only.
    
